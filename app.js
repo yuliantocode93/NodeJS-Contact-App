@@ -1,11 +1,13 @@
-const { tulisPertanyaan, simpanContact } = require("./contacts");
+//* mengambil argument dari comand line
 
-const main = async () => {
-  const nama = await tulisPertanyaan("Masukan nama anda : ");
-  const email = await tulisPertanyaan("Masukan email anda : ");
-  const noHP = await tulisPertanyaan("Masukan nomor HP anda : ");
+// const { tulisPertanyaan, simpanContact } = require("./contacts");
 
-  simpanContact(nama, email, noHP);
-};
+// const main = async () => {
+//   const nama = await tulisPertanyaan("Masukan nama anda : ");
+//   const email = await tulisPertanyaan("Masukan email anda : ");
+//   const noHP = await tulisPertanyaan("Masukan nomor HP anda : ");
 
-main();
+//   simpanContact(nama, email, noHP);
+// };
+
+// main();
